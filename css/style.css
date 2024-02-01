@@ -1,0 +1,105 @@
+ .logo{
+    height: 60px;
+    width: 64px;
+   
+}
+
+#navbar{
+    justify-content: center;
+    display: flex;
+    font-size: 27px;
+    margin:8px 20px;
+    margin-left: -20px;
+}
+#text{
+    padding: -5px 21px;
+    margin: 6px 10px;
+    font-style: italic;
+}
+.main-box{
+    overflow-y: auto;
+    border: 2px solid black;
+    height: 530px;
+    width: 1038px;
+    margin:auto;
+    border-radius: 22px;
+    font-size: 12px;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239)); */
+      background-image: linear-gradient(rgb(320, 209, 191), rgb(28, 37, 245)); 
+    /* background-color: #202b16; */
+     padding:12px 10px;
+     color: white;
+} 
+
+#send-container{
+    margin: 21px 193px;
+}
+
+#messagebox{
+    height: 38px;
+    width: 1040px;
+    border: 2px solid black;
+    border-radius: 22px;
+    margin: auto;
+
+  
+}
+.btn{
+    height: 43px;
+    width: 66px;
+    border:2px solid black;
+    border-radius: 22px;
+}
+.left{
+    float:left;
+    clear:both;
+}
+.right{
+    float:right;
+    clear:both;
+}
+.max{
+    
+    clear:both;
+    color: #0c4322;
+}
+.message{
+    /* background-image: linear-gradient(rgb(320, 209, 191), rgb(28, 37, 245)); */
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 35px;
+    margin: 18px 52px;
+    padding: 3px 20px;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inconsolata', monospace;
+    border-top-right-radius: 4px;
+    background-color:black;
+    align-items: center;
+}  
+.message2{
+    /* background-image: linear-gradient(rgb(320, 209, 191), rgb(28, 37, 245)); */
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 35px;
+    margin: 18px 52px;
+    padding: 3px 20px;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inconsolata', monospace;
+    border-top-left-radius: 4px;
+    background-color:black;
+    align-items: center;
+}
+
+.message3{
+    /* background-image: linear-gradient(rgb(320, 209, 191), rgb(28, 37, 245)); */
+    font-size: 24px;
+    /* border: 2px solid black; */
+    /* border-radius: 35px; */
+    margin: -10px 344px;
+    padding: 5px 20px;
+    font-family: 'Lora', serif;
+    /* border-top-left-radius: 4px; */
+    /* background-color:rgb(210, 20, 20); */
+    /* align-items: center; */
+}
+
